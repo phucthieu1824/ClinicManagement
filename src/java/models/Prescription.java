@@ -4,60 +4,60 @@ import java.sql.Timestamp;
 
 public class Prescription {
 
-    public int PrescriptionId;
-    public int VisitId;
-    public int DoctorId;
-    public String Note;
-    public Timestamp CreatedAt;
+    private int prescriptionId;
+    private int visitId;
+    private int doctorId;
+    private String note;
+    private Timestamp createdAt;
 
     public Prescription() {
     }
 
-    public Prescription(int PrescriptionId, int VisitId, int DoctorId, String Note, Timestamp CreatedAt) {
-        this.PrescriptionId = PrescriptionId;
-        this.VisitId = VisitId;
-        this.DoctorId = DoctorId;
-        this.Note = Note;
-        this.CreatedAt = CreatedAt;
+    public Prescription(int prescriptionId, int visitId, int doctorId, String note, Timestamp createdAt) {
+        this.prescriptionId = prescriptionId;
+        this.visitId = visitId;
+        this.doctorId = doctorId;
+        this.note = note;
+        this.createdAt = createdAt;
     }
 
     public int getPrescriptionId() {
-        return PrescriptionId;
+        return prescriptionId;
     }
 
-    public void setPrescriptionId(int PrescriptionId) {
-        this.PrescriptionId = PrescriptionId;
+    public void setPrescriptionId(int prescriptionId) {
+        this.prescriptionId = prescriptionId;
     }
 
     public int getVisitId() {
-        return VisitId;
+        return visitId;
     }
 
-    public void setVisitId(int VisitId) {
-        this.VisitId = VisitId;
+    public void setVisitId(int visitId) {
+        this.visitId = visitId;
     }
 
     public int getDoctorId() {
-        return DoctorId;
+        return doctorId;
     }
 
-    public void setDoctorId(int DoctorId) {
-        this.DoctorId = DoctorId;
+    public void setDoctorId(int doctorId) {
+        this.doctorId = doctorId;
     }
 
     public String getNote() {
-        return Note;
+        return note;
     }
 
-    public void setNote(String Note) {
-        this.Note = Note;
+    public void setNote(String note) {
+        this.note = note;
     }
 
     public Timestamp getCreatedAt() {
-        return CreatedAt;
+        return createdAt;
     }
 
-    public void setCreatedAt(Timestamp CreatedAt) {
-        this.CreatedAt = CreatedAt;
+    public void setCreatedAt(Timestamp createdAt) {
+        this.createdAt = createdAt;
     }
 }

@@ -12,6 +12,18 @@
         <servlet-name>DashboardController</servlet-name>
         <url-pattern>/admin/dashboard</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DoctorDashboardController</servlet-name>
+        <url-pattern>/doctor/dashboard</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DoctorExamineController</servlet-name>
+        <url-pattern>/doctor/examine</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DoctorPrintController</servlet-name>
+        <url-pattern>/doctor/print</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>30</session-timeout>
     </session-config>
@@ -27,6 +39,18 @@
     <servlet>
         <servlet-name>DashboardController</servlet-name>
         <servlet-class>controller.DashboardController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DoctorDashboardController</servlet-name>
+        <servlet-class>controller.DoctorDashboardController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DoctorExamineController</servlet-name>
+        <servlet-class>controller.DoctorExamineController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DoctorPrintController</servlet-name>
+        <servlet-class>controller.DoctorPrintController</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ProfileController</servlet-name>

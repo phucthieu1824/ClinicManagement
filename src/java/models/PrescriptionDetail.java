@@ -2,70 +2,90 @@ package models;
 
 public class PrescriptionDetail {
 
-    public int DetailId;
-    public int PrescriptionId;
-    public int MedicineId;
-    public int Quantity;
-    public double UnitPrice;
-    public String Dosage;
+    private int detailId;
+    private int prescriptionId;
+    private int medicineId;
+    private int quantity;
+    private double unitPrice;
+    private String dosage;
+
+    // Các trường JOIN từ bảng Medicines hỗ trợ hiển thị & in ấn
+    private String medicineName;
+    private String unit;
 
     public PrescriptionDetail() {
     }
 
-    public PrescriptionDetail(int DetailId, int PrescriptionId, int MedicineId, int Quantity, double UnitPrice, String Dosage) {
-        this.DetailId = DetailId;
-        this.PrescriptionId = PrescriptionId;
-        this.MedicineId = MedicineId;
-        this.Quantity = Quantity;
-        this.UnitPrice = UnitPrice;
-        this.Dosage = Dosage;
+    public PrescriptionDetail(int detailId, int prescriptionId, int medicineId, int quantity, double unitPrice, String dosage) {
+        this.detailId = detailId;
+        this.prescriptionId = prescriptionId;
+        this.medicineId = medicineId;
+        this.quantity = quantity;
+        this.unitPrice = unitPrice;
+        this.dosage = dosage;
     }
 
     public int getDetailId() {
-        return DetailId;
+        return detailId;
     }
 
-    public void setDetailId(int DetailId) {
-        this.DetailId = DetailId;
+    public void setDetailId(int detailId) {
+        this.detailId = detailId;
     }
 
     public int getPrescriptionId() {
-        return PrescriptionId;
+        return prescriptionId;
     }
 
-    public void setPrescriptionId(int PrescriptionId) {
-        this.PrescriptionId = PrescriptionId;
+    public void setPrescriptionId(int prescriptionId) {
+        this.prescriptionId = prescriptionId;
     }
 
     public int getMedicineId() {
-        return MedicineId;
+        return medicineId;
     }
 
-    public void setMedicineId(int MedicineId) {
-        this.MedicineId = MedicineId;
+    public void setMedicineId(int medicineId) {
+        this.medicineId = medicineId;
     }
 
     public int getQuantity() {
-        return Quantity;
+        return quantity;
     }
 
-    public void setQuantity(int Quantity) {
-        this.Quantity = Quantity;
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
     }
 
     public double getUnitPrice() {
-        return UnitPrice;
+        return unitPrice;
     }
 
-    public void setUnitPrice(double UnitPrice) {
-        this.UnitPrice = UnitPrice;
+    public void setUnitPrice(double unitPrice) {
+        this.unitPrice = unitPrice;
     }
 
     public String getDosage() {
-        return Dosage;
+        return dosage;
     }
 
-    public void setDosage(String Dosage) {
-        this.Dosage = Dosage;
+    public void setDosage(String dosage) {
+        this.dosage = dosage;
+    }
+
+    public String getMedicineName() {
+        return medicineName;
+    }
+
+    public void setMedicineName(String medicineName) {
+        this.medicineName = medicineName;
+    }
+
+    public String getUnit() {
+        return unit;
+    }
+
+    public void setUnit(String unit) {
+        this.unit = unit;
     }
 }

@@ -5,140 +5,140 @@ import java.sql.Timestamp;
 
 public class Patient {
 
-    public int PatientId;
-    public String FullName;
-    public String Phone;
-    public String IdentityCard;
-    public String Gender;
-    public Date DateOfBirth;
-    public String Address;
-    public String Allergies;
-    public String MedicalHistory;
-    public String GuardianName;
-    public String GuardianPhone;
-    public String GuardianRelation;
-    public Timestamp CreatedAt;
+    private int patientId;
+    private String fullName;
+    private String phone;
+    private String identityCard;
+    private String gender;
+    private Date dateOfBirth;
+    private String address;
+    private String allergies;
+    private String medicalHistory;
+    private String guardianName;
+    private String guardianPhone;
+    private String guardianRelation;
+    private Timestamp createdAt;
 
     public Patient() {
     }
 
-    public Patient(int PatientId, String FullName, String Phone, String IdentityCard, String Gender, Date DateOfBirth, String Address, String Allergies, String MedicalHistory, String GuardianName, String GuardianPhone, String GuardianRelation, Timestamp CreatedAt) {
-        this.PatientId = PatientId;
-        this.FullName = FullName;
-        this.Phone = Phone;
-        this.IdentityCard = IdentityCard;
-        this.Gender = Gender;
-        this.DateOfBirth = DateOfBirth;
-        this.Address = Address;
-        this.Allergies = Allergies;
-        this.MedicalHistory = MedicalHistory;
-        this.GuardianName = GuardianName;
-        this.GuardianPhone = GuardianPhone;
-        this.GuardianRelation = GuardianRelation;
-        this.CreatedAt = CreatedAt;
+    public Patient(int patientId, String fullName, String phone, String identityCard, String gender, Date dateOfBirth, String address, String allergies, String medicalHistory, String guardianName, String guardianPhone, String guardianRelation, Timestamp createdAt) {
+        this.patientId = patientId;
+        this.fullName = fullName;
+        this.phone = phone;
+        this.identityCard = identityCard;
+        this.gender = gender;
+        this.dateOfBirth = dateOfBirth;
+        this.address = address;
+        this.allergies = allergies;
+        this.medicalHistory = medicalHistory;
+        this.guardianName = guardianName;
+        this.guardianPhone = guardianPhone;
+        this.guardianRelation = guardianRelation;
+        this.createdAt = createdAt;
     }
 
     public int getPatientId() {
-        return PatientId;
+        return patientId;
     }
 
-    public void setPatientId(int PatientId) {
-        this.PatientId = PatientId;
+    public void setPatientId(int patientId) {
+        this.patientId = patientId;
     }
 
     public String getFullName() {
-        return FullName;
+        return fullName;
     }
 
-    public void setFullName(String FullName) {
-        this.FullName = FullName;
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
     }
 
     public String getPhone() {
-        return Phone;
+        return phone;
     }
 
-    public void setPhone(String Phone) {
-        this.Phone = Phone;
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     public String getIdentityCard() {
-        return IdentityCard;
+        return identityCard;
     }
 
-    public void setIdentityCard(String IdentityCard) {
-        this.IdentityCard = IdentityCard;
+    public void setIdentityCard(String identityCard) {
+        this.identityCard = identityCard;
     }
 
     public String getGender() {
-        return Gender;
+        return gender;
     }
 
-    public void setGender(String Gender) {
-        this.Gender = Gender;
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 
     public Date getDateOfBirth() {
-        return DateOfBirth;
+        return dateOfBirth;
     }
 
-    public void setDateOfBirth(Date DateOfBirth) {
-        this.DateOfBirth = DateOfBirth;
+    public void setDateOfBirth(Date dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
     }
 
     public String getAddress() {
-        return Address;
+        return address;
     }
 
-    public void setAddress(String Address) {
-        this.Address = Address;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public String getAllergies() {
-        return Allergies;
+        return allergies;
     }
 
-    public void setAllergies(String Allergies) {
-        this.Allergies = Allergies;
+    public void setAllergies(String allergies) {
+        this.allergies = allergies;
     }
 
     public String getMedicalHistory() {
-        return MedicalHistory;
+        return medicalHistory;
     }
 
-    public void setMedicalHistory(String MedicalHistory) {
-        this.MedicalHistory = MedicalHistory;
+    public void setMedicalHistory(String medicalHistory) {
+        this.medicalHistory = medicalHistory;
     }
 
     public String getGuardianName() {
-        return GuardianName;
+        return guardianName;
     }
 
-    public void setGuardianName(String GuardianName) {
-        this.GuardianName = GuardianName;
+    public void setGuardianName(String guardianName) {
+        this.guardianName = guardianName;
     }
 
     public String getGuardianPhone() {
-        return GuardianPhone;
+        return guardianPhone;
     }
 
-    public void setGuardianPhone(String GuardianPhone) {
-        this.GuardianPhone = GuardianPhone;
+    public void setGuardianPhone(String guardianPhone) {
+        this.guardianPhone = guardianPhone;
     }
 
     public String getGuardianRelation() {
-        return GuardianRelation;
+        return guardianRelation;
     }
 
-    public void setGuardianRelation(String GuardianRelation) {
-        this.GuardianRelation = GuardianRelation;
+    public void setGuardianRelation(String guardianRelation) {
+        this.guardianRelation = guardianRelation;
     }
 
     public Timestamp getCreatedAt() {
-        return CreatedAt;
+        return createdAt;
     }
 
-    public void setCreatedAt(Timestamp CreatedAt) {
-        this.CreatedAt = CreatedAt;
+    public void setCreatedAt(Timestamp createdAt) {
+        this.createdAt = createdAt;
     }
 }

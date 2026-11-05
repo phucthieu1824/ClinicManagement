@@ -3,6 +3,7 @@ package models;
 import java.math.BigDecimal;
 
 public class Medicine {
+
     private int medicineId;
     private String medicineName;
     private String unit;
@@ -24,24 +25,59 @@ public class Medicine {
         this.isActive = isActive;
     }
 
-    public int getMedicineId() { return medicineId; }
-    public void setMedicineId(int medicineId) { this.medicineId = medicineId; }
+    public int getMedicineId() {
+        return medicineId;
+    }
 
-    public String getMedicineName() { return medicineName; }
-    public void setMedicineName(String medicineName) { this.medicineName = medicineName; }
+    public void setMedicineId(int medicineId) {
+        this.medicineId = medicineId;
+    }
 
-    public String getUnit() { return unit; }
-    public void setUnit(String unit) { this.unit = unit; }
+    public String getMedicineName() {
+        return medicineName;
+    }
 
-    public BigDecimal getPrice() { return price; }
-    public void setPrice(BigDecimal price) { this.price = price; }
+    public void setMedicineName(String medicineName) {
+        this.medicineName = medicineName;
+    }
 
-    public int getStockQuantity() { return stockQuantity; }
-    public void setStockQuantity(int stockQuantity) { this.stockQuantity = stockQuantity; }
+    public String getUnit() {
+        return unit;
+    }
 
-    public String getUsageInstruction() { return usageInstruction; }
-    public void setUsageInstruction(String usageInstruction) { this.usageInstruction = usageInstruction; }
+    public void setUnit(String unit) {
+        this.unit = unit;
+    }
 
-    public boolean isIsActive() { return isActive; }
-    public void setIsActive(boolean isActive) { this.isActive = isActive; }
+    public BigDecimal getPrice() {
+        return price;
+    }
+
+    public void setPrice(BigDecimal price) {
+        this.price = price;
+    }
+
+    public int getStockQuantity() {
+        return stockQuantity;
+    }
+
+    public void setStockQuantity(int stockQuantity) {
+        this.stockQuantity = stockQuantity;
+    }
+
+    public String getUsageInstruction() {
+        return usageInstruction;
+    }
+
+    public void setUsageInstruction(String usageInstruction) {
+        this.usageInstruction = usageInstruction;
+    }
+
+    public boolean isIsActive() {
+        return isActive;
+    }
+
+    public void setIsActive(boolean isActive) {
+        this.isActive = isActive;
+    }
 }
