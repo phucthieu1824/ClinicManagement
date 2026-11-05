@@ -1,81 +1,47 @@
 package models;
 
-public class Medicine {
+import java.math.BigDecimal;
 
-    public int MedicineId;
-    public String MedicineName;
-    public String Unit;
-    public double Price;
-    public int StockQuantity;
-    public String UsageInstruction;
-    public boolean IsActive;
+public class Medicine {
+    private int medicineId;
+    private String medicineName;
+    private String unit;
+    private BigDecimal price;
+    private int stockQuantity;
+    private String usageInstruction;
+    private boolean isActive;
 
     public Medicine() {
     }
 
-    public Medicine(int MedicineId, String MedicineName, String Unit, double Price, int StockQuantity, String UsageInstruction, boolean IsActive) {
-        this.MedicineId = MedicineId;
-        this.MedicineName = MedicineName;
-        this.Unit = Unit;
-        this.Price = Price;
-        this.StockQuantity = StockQuantity;
-        this.UsageInstruction = UsageInstruction;
-        this.IsActive = IsActive;
+    public Medicine(int medicineId, String medicineName, String unit, BigDecimal price, int stockQuantity, String usageInstruction, boolean isActive) {
+        this.medicineId = medicineId;
+        this.medicineName = medicineName;
+        this.unit = unit;
+        this.price = price;
+        this.stockQuantity = stockQuantity;
+        this.usageInstruction = usageInstruction;
+        this.isActive = isActive;
     }
 
-    public int getMedicineId() {
-        return MedicineId;
-    }
+    public int getMedicineId() { return medicineId; }
+    public void setMedicineId(int medicineId) { this.medicineId = medicineId; }
 
-    public void setMedicineId(int MedicineId) {
-        this.MedicineId = MedicineId;
-    }
+    public String getMedicineName() { return medicineName; }
+    public void setMedicineName(String medicineName) { this.medicineName = medicineName; }
 
-    public String getMedicineName() {
-        return MedicineName;
-    }
+    public String getUnit() { return unit; }
+    public void setUnit(String unit) { this.unit = unit; }
 
-    public void setMedicineName(String MedicineName) {
-        this.MedicineName = MedicineName;
-    }
+    public BigDecimal getPrice() { return price; }
+    public void setPrice(BigDecimal price) { this.price = price; }
 
-    public String getUnit() {
-        return Unit;
-    }
+    public int getStockQuantity() { return stockQuantity; }
+    public void setStockQuantity(int stockQuantity) { this.stockQuantity = stockQuantity; }
 
-    public void setUnit(String Unit) {
-        this.Unit = Unit;
-    }
+    public String getUsageInstruction() { return usageInstruction; }
+    public void setUsageInstruction(String usageInstruction) { this.usageInstruction = usageInstruction; }
 
-    public double getPrice() {
-        return Price;
-    }
-
-    public void setPrice(double Price) {
-        this.Price = Price;
-    }
-
-    public int getStockQuantity() {
-        return StockQuantity;
-    }
-
-    public void setStockQuantity(int StockQuantity) {
-        this.StockQuantity = StockQuantity;
-    }
-
-    public String getUsageInstruction() {
-        return UsageInstruction;
-    }
-
-    public void setUsageInstruction(String UsageInstruction) {
-        this.UsageInstruction = UsageInstruction;
-    }
-
-    public boolean isIsActive() {
-        return IsActive;
-    }
-
-    public void setIsActive(boolean IsActive) {
-        this.IsActive = IsActive;
-    }
+    public boolean isIsActive() { return isActive; }
+    public void setIsActive(boolean isActive) { this.isActive = isActive; }
 }
