@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/ADMIN/OneDrive/Documents/NetBeansProjects/du%20an/web/index.html</file>
+            <file>file:/C:/Users/ADMIN/OneDrive/Documents/NetBeansProjects/du%20an/web/menu.jsp</file>
+            <file>file:/C:/Users/ADMIN/OneDrive/Documents/NetBeansProjects/du%20an/src/java/dal/MedicineDAO.java</file>
+            <file>file:/C:/Users/ADMIN/OneDrive/Documents/NetBeansProjects/du%20an/web/WEB-INF/ConnectDB.properties</file>
+            <file>file:/C:/Users/ADMIN/OneDrive/Documents/NetBeansProjects/du%20an/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/ADMIN/OneDrive/Documents/NetBeansProjects/du%20an/src/java/dal/DBContext.java</file>
+            <file>file:/C:/Users/ADMIN/OneDrive/Documents/NetBeansProjects/du%20an/src/java/model/PrescriptionItem.java</file>
+            <file>file:/C:/Users/ADMIN/OneDrive/Documents/NetBeansProjects/du%20an/src/java/model/Prescription.java</file>
+            <file>file:/C:/Users/ADMIN/OneDrive/Documents/NetBeansProjects/du%20an/src/java/controller/CreatePrescriptionServlet.java</file>
+            <file>file:/C:/Users/ADMIN/OneDrive/Documents/NetBeansProjects/du%20an/web/create.jsp</file>
+            <file>file:/C:/Users/ADMIN/OneDrive/Documents/NetBeansProjects/du%20an/web/medicines.jsp</file>
+            <file>file:/C:/Users/ADMIN/OneDrive/Documents/NetBeansProjects/du%20an/src/java/controller/PrescriptionServlet.java</file>
+            <file>file:/C:/Users/ADMIN/OneDrive/Documents/NetBeansProjects/du%20an/src/java/controller/MedicineServlet.java</file>
+            <file>file:/C:/Users/ADMIN/OneDrive/Documents/NetBeansProjects/du%20an/web/prescriptions.jsp</file>
+            <file>file:/C:/Users/ADMIN/OneDrive/Documents/NetBeansProjects/du%20an/src/java/dal/PrescriptionDAO.java</file>
+            <file>file:/C:/Users/ADMIN/OneDrive/Documents/NetBeansProjects/du%20an/src/java/model/Medicine.java</file>
+        </group>
+    </open-files>
+</project-private>
